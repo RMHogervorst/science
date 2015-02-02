@@ -1,5 +1,13 @@
 Multiple search strategies to use for instance in webofscience
 Use AND to connect different parts.
+---
+title: "Search strategies"
+output:
+  html_document:
+    toc: true
+    theme: united
+---
+
 #Including
 ##Stress
 (stress* OR distress OR anxiety OR depression)
