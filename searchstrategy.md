@@ -67,6 +67,15 @@ output:
 ##menstrual cycle
 ((hormon* AND female) OR menstruat* OR contraceptiv* OR ((follicl* OR luteal) AND phase) OR ovulation OR pregnan*)
 
+## academic success
+((academ* NEAR/3 (achievement OR succes OR performance))
+
+## predicting
+(predict*)
+
+## reviews or meta analyses
+(system* NEAR/3(meta*analys*  OR review))
+
 #Excluding
 
 ##Just in humans, no animals
@@ -78,6 +87,10 @@ NOT (device OR techni* OR pharmacol*)
 
 ##diseases
 NOT ( hepatit* OR cancer OR carcinom* OR dysplasia OR tumor OR HIV* OR "multiple scleros*" OR  leukemi* OR anemia OR chemotherapy OR pneumon* OR disease OR pathogenesis OR "organ dysfunction" OR mortality OR autoimmun* OR MSC OR "multipotent mesenchymal" OR human-immunodeficiency* OR immunodeficienc* OR asthma  OR diabetes OR apoptos* OR acne OR oncolog*  OR melanom* OR myelom*  OR lymphoma OR monoclonal-antibod* OR cateract* OR myasthenia* OR cystic* OR lupus* OR vasculit* OR colitis OR  myocard* OR *arthritic OR arthrit* OR psorias* OR rabies OR aneurys*   OR encephalitis OR mastitis OR "immunoglobin replacement therapy" OR diabet* OR mesoangioblast* OR anaphylactic* OR helicobacter OR leprosy OR fibromyalgia  OR tuberculos* OR MRSA OR "scarlet fever"OR poliomyelitis OR endocarditis OR meningitis  OR smallpox OR ulcers OR sarcoidosis OR cholera OR "tropical medicine" OR syphilis OR herpes OR malaria OR BRUCELLOSIS OR "influenza infection")
+
+## NOT medical
+(therap* OR player OR cessation OR preterm OR infant* OR LDL OR stroke OR smok* OR *cardia* OR delivery OR children)
+
 
 ##other classifiers
 OR guidelines
